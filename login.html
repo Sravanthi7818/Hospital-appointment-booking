@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sign Up | Log In</title>
+    <link rel="stylesheet" href="style3.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="radio-buttons">
+        
+    </div>
+    <div class="wrapper">
+        
+       <div class="title-text">
+          <div class="title login">
+             Account 
+          </div>
+          
+          
+       </div>
+       
+       <div class="form-container">
+          <div class="slide-controls">
+             <input type="radio" name="slide" id="login" checked>
+             
+             <label for="login" class="slide login">Login</label>
+            
+             <div class="slider-tab"></div>
+             
+          </div>
+          <div class="radio-group">
+            <input type="radio" id="admin" class="radio-input" name="user-type" value="admin">
+            <label for="admin" class="radio-label">Patient </label>
+
+            <input type="radio" id="user" class="radio-input" name="user-type" value="user">
+            <label for="user" class="radio-label">Doctor</label>
+
+            
+        </div>
+         
+          <div class="form-inner">
+             <form action="#" class="login">
+                
+                <div class="field">
+                   <input type="text" placeholder="Email Address" name="mail" required>
+                   <span style color="red;"><?php</span>
+                </div>
+                <div class="field">
+                   <input type="password" placeholder="Password" name="password" required>
+                </div>
+                <div class="pass-link">
+                   <a href="#">Reset password?</a>
+                </div>
+                <div class="field btn">
+                   <div class="btn-layer"></div>
+                   <input type="submit" value="Login">
+                </div>
+                <div class="signup-link">
+                   Don't Have Account? <a href="">Create A New</a>
+                </div>
+             </form>
+             <form action="#" class="signup">
+                <div class="field">
+                   <input type="text" placeholder="Email Address" required>
+                </div>
+                <div class="field">
+                   <input type="password" placeholder="Password" required>
+                </div>
+                <div class="field">
+                   <input type="password" placeholder="Confirm Password" required>
+                </div>
+                <div class="field btn">
+                   <div class="btn-layer"></div>
+                   <input type="submit" value="SignUp">
+                </div>
+             </form>
+          </div>
+       </div>
+    </div>
+    
+  </body>
+</html>
